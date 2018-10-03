@@ -47,6 +47,7 @@ public class U1_A2_P2_Shopping {
         taxAmount = purPrice * TAX_RATE;
         totalPrice = purPrice + taxAmount;
         
+        //output
         System.out.println("\n\nBill\n*************\n\nPrice:\t\t" + df.format(purPrice) + "\nHST:\t\t" + df.format(taxAmount) + "\nTotal price:\t" + df.format(totalPrice));
     }
     
